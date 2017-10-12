@@ -1,3 +1,5 @@
+# Credits - Stephan Zerhusen
+# Reference - https://github.com/szerhusenBC/jwt-spring-security-demo
 # springjwt
 Spring JWT Template Project
 
