@@ -1,5 +1,3 @@
-# Credits - Stephan Zerhusen
-# Reference - https://github.com/szerhusenBC/jwt-spring-security-demo
 # springjwt
 Spring JWT Template Project
 
@@ -15,4 +13,8 @@ POST - /login
 
 GET - /hello
 * allowed only for authenticated users - refer Security config file.
-* token is must for the request to be processed.
+* token is must for the request to be processed - pass the token in header of the request "Bearer <token>" (where <token> is the response of server to "/login" request).
+
+
+Credits - Stephan Zerhusen
+Reference - https://github.com/szerhusenBC/jwt-spring-security-demo
